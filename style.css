@@ -1,0 +1,813 @@
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('/font/TTHoves-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('/font/TTHoves-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('/font/TTHoves-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('/font/TTHoves-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFP';
+    src: url('/font/FontsFree-Net-SFProDisplay-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body section{
+    padding: 0 10vw;
+}
+
+
+ul.navbar-nav {
+    background: white!important;
+    z-index: 1;
+    position: relative;
+    padding: 20px 0!important;
+    gap: 20px!important;
+}
+
+a{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+footer a{
+    background-color: #2C2C2C!important;
+    color: white!important;
+    text-decoration: none;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 64px;
+    line-height: 64px;
+    font-family: 'TT Hoves';
+}
+
+h2{
+    font-family: 'TT HOVES';
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+}
+
+h2{
+    margin-bottom: 5%;
+}
+
+h4{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 2px solid white;
+    background: white;
+    font-family: 'TT Hoves';
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.arrow-right img{
+    transform: rotate(180deg);
+    height: auto!important;
+    width: auto!important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none!important;
+}
+
+/**-- N A V --**/
+
+nav {
+    height: 102px;
+    font-family: 'TT Hoves';
+    color: #333333;
+    background-color: white;
+}
+
+.bg-body-tertiary{
+    background-color: white !important;
+}
+
+#navbarNav {
+
+}
+
+/* logo */
+nav span {
+    position: relative;
+    height: 43px;
+}
+
+#logo-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* menu */
+ul.navbar-nav {
+    gap: 60px;
+    font-size: 12px;
+}
+
+a.nav-link {
+    padding: 0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333
+}
+
+/**-- H O M E --**/
+
+/* hero */
+
+.hero{
+    height:829px;
+}
+
+.project .row{
+    height: 100%;
+    align-items: center;
+}
+
+.project .row .project-col{
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.t1{
+    color: #BDBDBD;
+    font-weight: 300; 
+}
+
+.t2{
+    font-weight: 700;
+}
+
+.rows {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.rows span {
+    height: 53px;
+    width: 53px;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.arrow-right{
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    right: -600px;
+    top: 26px;
+    height: 0;
+    width: 600px;
+    border: 1px solid #F2F2F2;
+}
+
+.col-left{
+    gap: 90px;
+    padding-bottom: 90px!important;
+}
+
+.pages{
+    width: 141px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    color: #BDBDBD;
+    font-family: 'TT Hoves';
+    font-size: 24px;
+}
+
+.pages span{
+    position: relative;
+    width: 50px;
+}
+
+.pages span p{
+    position: absolute;
+    Width:43.82px;
+    bottom: 0;
+    Left: 0px;
+    Border: 1px solid #E0E0E0;
+    transform: rotate(134.98deg) ;
+}
+
+.project .pages-group{
+    display: none;
+    
+ }
+
+.col-right{
+    position: relative;
+}
+
+.project .col-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    position: relative;
+    z-index: 1;
+}
+
+.col-right button{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    z-index: 2;
+    width: 221.81px;
+    height: 71px;
+}
+
+.home-page1, .home-page2, .home-page3{
+    margin-bottom: 8%;
+}
+
+/* -- home page 1 -- */
+.home{
+    padding-top: 8%;
+}
+
+.about {
+    height: 60%;
+    width: 85%;
+    padding: 0;
+}
+
+.about .row {
+    height: 100%;
+}
+
+.about .row .col {
+    height: 100%;
+    padding: 0;
+}
+
+.home-p1-col-left, .home-p1-col-right{
+    height: 100%;
+}
+
+.col.home-p1-col-left {
+    padding-top: 15px;
+}
+
+.home-p1-col-left .row .col-6{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-self: center;
+    height: 100%;
+}
+
+img.page2-img {
+    width: 100%;
+    height: calc(70% - 15px);
+    object-fit: cover;
+}
+
+img.page2-img2 {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+img.page2-img3 {
+    width: 100%;
+    height: calc(30% - 15px);
+    object-fit: cover;
+}
+
+.home-p1-col-right{
+    font-family: 'TT Hoves';
+}
+
+.home-p1-col-right button{
+    width: 222px;
+    height: 71px;
+}
+
+/* -- home page 2 -- */
+
+.home-page2-col{
+    display: flex;
+    align-items: center;  
+    gap: 30px;
+    padding: 15px;
+}
+
+.home-page2-col p{
+    margin: 0;
+}
+
+.num-span {
+    width: 100px;
+}
+
+.num{
+    font-family: 'SFP';
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 150px;
+    text-align: left;
+    color: #F2F2F2;
+}
+
+.txt{
+    font-family: 'TT Hoves';
+    font-size: 22px;
+}
+
+.home-page2-col:first-of-type .txt{
+    width: 50%;
+}
+
+/* -- home page 3 -- */
+
+.home-page3 .row div {
+    padding: 1%;
+}
+
+.home-page3 .row div img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-page3-button1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    color: white;
+    font-family: 'TT Hoves';
+    background-image: url(/src/home/page3-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000094;
+    background-blend-mode: color;
+    border: none;
+    padding: 0 10%;
+}
+
+button.home-page3-button1 span {
+    display: flex;
+    align-items: center;
+}
+
+.home-page3-button1 img, .home-page3-button2 img {
+    filter: invert(1);
+}
+
+.title{
+    color:white;
+    font-weight: 700;
+    text-align: start;
+    margin: 0!important;
+    line-height: 64px;
+}
+
+.bt {
+    gap: 12px;
+}
+
+.home-page3 .container div:last-of-type {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-page3-button2 {
+    width: 221.81px;
+    height: 71px;
+    background: #333333;
+    border: none;
+    color: white;
+}
+
+/* -- contact -- */
+
+#contact{
+    padding-bottom: 8%;
+}
+
+#contact .row div{
+    padding: 0;
+}
+
+#contact img {
+    width: 95%;
+    padding-left: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    width: 100%;
+    background: #F3F3F3;
+    height: 15%;
+}
+
+input, textarea{
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 90%;
+    width: 100%;
+    padding-left: 6%;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 14px;
+}
+
+label:last-of-type{
+    height: 55%;
+}
+
+#contact p {
+    margin: 0;
+    font-size: 14px;
+    padding: 20px 0 20px 40px;
+    line-height: 17.43px;
+}
+
+/**-- G A L L E R Y --**/
+
+.h1-pages {
+    padding: 30px 0;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.gallery h1 span {
+    margin: 0;
+}
+
+.gallery .row {
+    padding: 2% 0;
+}
+
+.gallery .col img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.pages-group {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: 10%;
+}
+
+.pages-group .pages {
+    height: 100%;
+    align-items: center;
+}
+
+.pages-group .pages p {
+    margin: 0;
+}
+
+/**-- P R O J E T S --**/
+
+.projects .row {
+    padding: 2% 0;
+    height: 430px;
+}
+
+
+.projects .row div {
+    height: 100%;
+}
+
+.projects .col-lg-5 {
+    padding: 5% 2%;
+}
+
+.projects img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects h2{
+    font-size: 40px!important;
+    line-height: 49.8px;
+}
+
+.projects p{
+    font-family: 'TT Hoves';
+    font-weight: 300;
+    margin-bottom: 13%;
+}
+.projects button{
+    width: 222px;
+    height: 71px;
+}
+
+
+/**-- C E R T I F I C A T E S --**/
+
+.certificates div {
+    padding: 2% 0;
+}
+
+.certificates .pages-group {
+    justify-content: flex-end;
+}
+
+/**-- C O N T A C T --**/
+
+.sub-title{
+    font-family: 'TT Hoves';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.41px;
+    text-align: left;
+    margin: 0;
+}
+
+.contact p:not(.sub-title){
+    font-family: TT Hoves;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.53px;
+    text-align: left;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 6% 0;
+}
+
+.contact .row{
+  margin-bottom: 112px;
+}
+
+.contact .row div:not(.map) {
+    padding: 0;
+}
+
+.contact img{
+    height: 100%;
+}
+
+.map{
+    position: relative;
+    padding: 0 0 0 40px;
+    height: 100%;
+}
+
+.shadow-pointer{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #CECECEBA;
+}
+
+
+/**-- F O O T E R --**/
+
+footer {
+    background: #2C2C2C;
+    color: white;
+}
+
+footer .row {
+    padding: 4% 0;
+}
+
+footer .row div {
+    padding: 0 3%;
+}
+
+footer .row div:first-of-type {
+    text-align: center;
+}
+
+footer span{
+    display: flex;
+    align-items: flex-start;
+}
+
+span.footer-icon {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-right: 14px;
+}
+
+.icon1{
+    margin-right: 19px !important;
+}
+
+footer span img{
+    object-fit: contain;
+}
+
+
+footer p{
+    line-height:24px
+}
+
+span.logos {
+    gap: 40px;
+}
+
+.footer {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #C8C8C8;
+    filter: opacity(0.5);
+    text-align: center;
+    padding: 24px;
+    border-top: 1px solid #c8c8c86b;
+}
+
+@media (max-width: 1300px){
+    h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .contact h1, .gallery h1{
+        font-size: 43px;
+        line-height: 43px;
+    }
+
+    .contact img{
+        width: 100%;
+        object-fit: cover;
+        object-position: right;
+    }
+}
+
+@media (max-width: 992px){
+
+    nav div{
+        padding: 0!important;
+    }
+
+    .hero{
+        height: auto;
+    }
+
+    
+    /**-- H O M E --**/
+
+    .no-mobile{
+        display: none;
+    }
+
+    .project .pages-group{
+        display: flex!important;
+        margin-top: 8%;
+        margin-bottom: 0;
+    }
+
+    .container{
+        padding: 0;
+    }
+   
+    section#project {
+        height: auto;
+    }
+
+    .col-left {
+        gap:35px;
+        padding-bottom: 8%!important;
+        padding-top: 8%;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .home-p1-col-left {
+        margin-bottom: 8%;
+    }
+
+    .about-row {
+        flex-direction: column-reverse;
+    }
+
+    .num {
+        font-size: 160px;
+        width: 30%;
+    }
+
+    .txt {
+        font-size: initial;
+    }
+
+    .home-page3-button1 {
+        padding: 6%;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .home-page3 .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home-page3 .row{
+        gap: 10px;
+        margin:0;
+    }
+
+    .home-page3 .row div{
+        padding: 0;
+    }
+
+    form{
+        height: 40vh;
+        margin-bottom: 10px;
+    }
+
+    /**-- P R O J E T S --**/
+
+    .projects .row {
+        height: auto;
+    }
+
+
+    .projects p {
+        margin-bottom: 2%;
+    }
+
+    /**-- C O N T A C T --**/
+
+    .map{
+        padding: 0;
+        margin-top: 30px;
+    }
+   
+}
+
+@media (max-width: 576px){
+    .projects h2 {
+        font-size: 30px !important;
+        line-height: 39.8px;
+    }
+}

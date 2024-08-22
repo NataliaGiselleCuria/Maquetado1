@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maquetado HTML, Bootstrap y Figma">
+    <title>Maquetado Figma</title>
+    <!-- Link to Figma design -->
+    <!-- Figma Design: https://www.figma.com/file/ySfVuQB0jsuLLwu2FBZVje/Website-of-architects -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/src/fvc.png">
+</head>
+<body>
+    <section id="nav">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <span class="col-4">
+                        <img id="logo-img" src="/src/logo-img.png" alt="logo img">
+                        <img id="logo-name" src="/src/logo-name.png" alt="logo name">
+                        
+                    </span>
+                   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                   
+                    <div class="collapse navbar-collapse col-8" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">ГЛАВНАЯ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/gallery_RU.html">ГАЛЕРЕЯ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/projects_RU.html">ПРОЕКТЫ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/certificates_RU.html">СЕРТИФИКАТЫ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact_RU.html">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                   
+                </div>
+                
+            </nav>
+           
+        </div>
+    </section>
+    <section id="home"></section>
+    <section class="project hero" class="container-fuild">
+        <div class="row">
+            <div class="project-col col-left col-lg-4 d-flex ">
+               <h1>
+                <span class="t1">PROJECT</span>
+                <span class="t2">NURTOWN</span>
+               </h1>
+               <div class="rows no-mobile">
+                <span><img src="/src/arrow-2-right-long.svg" alt="arrow-left"></span>
+                <span class="arrow-right"><a href="gallery_RU.html"><img src="/src/arrow-2-right-long.svg" alt="arrow-right"></a><p class="line no-mobile"></p></span>
+               </div>
+               <div class="pages no-mobile">
+                <p>01</p><span><p></p></span><p>05</p>
+               </div>
+            </div>
+            <div class="project-col col-right col-lg-8">
+               <img src="/src/home/page1-img.png" alt="img1">
+               <button class="arrow-right">ВЗГЛЯНУТЬ<img src="/src/arrow-2-right-long.svg" alt="arrow-right"></button>
+            </div>
+            <span class="pages-group">
+                <div class="pages">
+                    <p>01</p><span><p></p></span><p>05</p>
+                </div>
+                <div class="rows">
+                    <span><img src="/src/arrow-2-right-long.svg" alt="arrow-left"></span>
+                    <span class="arrow-right"><a href="gallery_RU.html"><img src="/src/arrow-2-right-long.svg" alt="arrow-right"></a></span>
+                </div>
+            </span> 
+        </div>
+    </section>
+    <section class="home">
+        <div class="home-page1">
+            <div class="container-fluid about">
+                <div class="row about-row">
+                    <div class="col-lg-7 home-p1-col-left">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="/src/home/page2-img.png" alt="" class="page2-img">
+                                <img src="/src/home/page2-img3.png" alt="" class="page2-img3">
+                            </div>
+                            <div class="col-6">
+                                <img src="/src/home/page2-img2.png" alt="" class="page2-img2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 home-p1-col-right">
+                        <h2>О компании</h2>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries, but also the leap into electronic typesetting, 
+                            remaining essentially unchanged.
+                        </p>
+                        <button class="arrow-right">ЧИТАТЬ<img src="/src/arrow-2-right-long.svg" alt="arrow-right"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-page2">
+            <div class="container">
+                <h2>Основные задачи</h2>
+                <div class="row">
+                    <div class="col-lg home-page2-col">
+                        <span class="num-span"><p class="num">1</p></span>
+                        <p class="txt">Создание комфортных условий и повышение качества обслуживания клиентов</p>
+                    </div>
+                    <div class="col-lg home-page2-col">
+                        <span class="num-span"><p class="num">2</p></span>
+                        <p class="txt">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-page3">
+            <div class="container">
+                <h2>Наши проекты</h2>
+                <div class="row">
+                    <div class="col-lg">
+                        <button class="home-page3-button1">
+                            <h2 class="title">ДОСУГОВЫЙ<br>ЦЕНТР </h2>
+                            <span class="bt arrow-right">ПОДРОБНЕЕ<img src="/src/arrow-2-right-long.svg" alt="arrow-right"></span>
+                        </button>
+                    </div>
+                    <div class="col-lg">
+                        <img src="src/home/page3-img2.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="src/home/page3-img3.png" alt="">
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="src/home/page3-img4.png" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="src/home/page3-img5.png" alt="">
+                    </div>
+                </div>
+                <div><button class="home-page3-button2 arrow-right">ВСЕ ПРОЕКТЫ<img src="/src/arrow-2-right-long.svg" alt="arrow-right"></button></div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Связаться с нами</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <form>
+                        <label><input placeholder="Имя"></label>
+                        <label><input placeholder="Номер телефона*"><span class="required"></span></label>
+                        <label><input class="required" placeholder="E-mail*"><span class="required"></span></label>
+                        <label><input placeholder="Интересующий товар/услуга"></label>
+                        <label><textarea class="required" placeholder="Сообщение*"></textarea></label>              
+                    </form>
+                </div>
+                <div class="col-lg-8">
+                    <img src="/src/home/page4-img.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+                    <button class="home-page3-button2 arrow-right">ОТПРАВИТЬ<img src="/src/arrow-2-right-long.svg" alt="arrow-right"></button>
+                </div>
+            </div>          
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img id="logo-img" src="src/footer-logo.png" alt="logo img">
+                </div>
+                <div class="col-lg-2">
+                    <h4>Информация</h4>
+                    <a href="index_RU.html">Главная</a>
+                    <a href="/gallery_RU.html">Галерея</a>
+                    <a href="/projects_RU.html">Проекты</a>
+                    <a href="/certificates_RU.html">Сертификаты</a>
+                    <a href="/contact_RU.html">Контакты</a>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Контакты</h4>
+                    <span>
+                        <span class="footer-icon icon1"><img src="/src/footer-location.png" alt="location"></span>
+                        <p>100000, Республика  Казахстан, г. Караганда, ул. Телевизионная 10</p>
+                    </span>
+                    <span>
+                        <span class="footer-icon"><img src="/src/footer-tel.png" alt="tel"></span>
+                        <p>+7 (701) 77 76 811</p>
+                    </span>
+                    <span>
+                        <span class="footer-icon"><img src="/src/footer-email.png" alt="email"></span>
+                        <p>Galym.sultanov@mail.ru</p>
+                    </span>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Социальные сети</h4>
+                    <span class="logos">
+                        <img src="/src/facebook.png" alt="facebook">
+                        <img src="/src/tw.png" alt="twitter">
+                        <img src="/src/in.png" alt="linkedin">
+                        <img src="/src/pinterest.png" alt="pinterest">
+                    </span>
+                </div>
+            </div>
+            <div class="footer">
+                © 2019 Digital Project. Все права защищены.
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+
+</html>
