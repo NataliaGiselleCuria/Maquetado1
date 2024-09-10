@@ -157,7 +157,7 @@ a.nav-link {
 /* hero */
 
 .hero{
-    height:829px;
+    height:calc(100vh - 102px);
 }
 
 .project .row{
