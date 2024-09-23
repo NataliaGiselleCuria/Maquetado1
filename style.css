@@ -707,7 +707,7 @@ span.logos {
     }
 
      .hero{
-        height: auto;
+        calc(100vh - 102px);
     }
 
     /**-- H O M E --**/
