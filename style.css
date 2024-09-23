@@ -65,6 +65,8 @@ h1{
     font-size: 64px;
     line-height: 64px;
     font-family: 'TT Hoves';
+    position: absolute;
+    bottom: 50vh;
 }
 
 h2{
@@ -705,6 +707,10 @@ span.logos {
     }
 
     /**-- H O M E --**/
+
+    h1{
+        position: unset;
+    }
 
     .no-mobile{
         display: none;
