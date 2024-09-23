@@ -65,8 +65,6 @@ h1{
     font-size: 64px;
     line-height: 64px;
     font-family: 'TT Hoves';
-    position: absolute;
-    bottom: 50vh;
 }
 
 h2{
@@ -688,6 +686,8 @@ span.logos {
         line-height: 45px;
     }
 
+   
+
     .contact h1, .gallery h1{
         font-size: 43px;
         line-height: 43px;
@@ -706,11 +706,11 @@ span.logos {
         padding: 0!important;
     }
 
-    /**-- H O M E --**/
-
-    h1{
-        position: unset;
+     .hero{
+        height: auto;
     }
+
+    /**-- H O M E --**/
 
     .no-mobile{
         display: none;
@@ -821,5 +821,9 @@ span.logos {
     .projects h2 {
         font-size: 30px !important;
         line-height: 39.8px;
+    }
+
+     .hero{
+        height: unset;
     }
 }
